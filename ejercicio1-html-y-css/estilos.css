@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+.lista{
+    padding-left: 5vw;
+    margin-left: 5vw;
+}
+
