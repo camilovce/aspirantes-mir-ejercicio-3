@@ -9,7 +9,24 @@
 </head>
 <body>
     
-    <form action="/my-handling-form-page" method="post">
+    <form action="/my-handling-form-page" method="post" name="login">
+        <h1>Login</h1>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" value="">
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" value=""><br>
+        <label for="genero">Género</label><br>
+        <select name="cars" id="cars">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+            <option value="otro">Otro</option>
+          </select><br>
+        <input type="checkbox" id="genero" name="genero" value="Boat">
+        <label for="genero"> Acepto los términos</label><br>
+        <div>
+            
+            <input type="submit" value="Ingresar" id="ingresar">
+        </div>
 
     </form>
 </body>

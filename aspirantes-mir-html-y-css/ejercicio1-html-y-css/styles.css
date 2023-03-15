@@ -1,0 +1,36 @@
+form{
+    background: rgb(107,76,245);
+    background: linear-gradient(0deg, rgba(107,76,245,1) 0%, rgba(189,9,183,1) 100%);    
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.78);
+-webkit-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.78);
+-moz-box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.78);  
+    position: relative;
+}
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#password,#email{
+    padding: 7px;
+    width:calc(100% - 14px);
+    margin-bottom: 10px;
+}
+select{
+    padding: 7px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#genero{
+    margin-bottom: 10px;
+}
+
+div{
+    width: 100%;
+    position: relative;
+    text-align: right;
+    
+}
